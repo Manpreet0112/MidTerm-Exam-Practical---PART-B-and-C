@@ -6,6 +6,9 @@
 package arithmetic;
 
 import java.util.Scanner;
+        enum OperationTypes{
+            PLUS,MINUS,TIMES,DIVIDE,NAME
+        };
 
 /** This class takes String input plus,minus,divide and times
  * from user and execute the arithmetic operation
@@ -31,6 +34,8 @@ public class ArithmeticBase
                 return x * y;
             case "DIVIDE":
                 return x / y;
+                case"NAME":
+                    return:
             default:
                 throw new AssertionError("Unknown operations " + this);
         }

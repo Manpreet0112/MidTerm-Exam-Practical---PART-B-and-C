@@ -28,9 +28,10 @@ public class Arithmetic
         Scanner in= new Scanner(System.in);
         int n= in.nextInt();
         int m= in.nextInt();
+        String name=in.next();
         double result = r.calculate(m,n);
         System.out.println("result :" +result); 
-    
+       
     }
 }
 
